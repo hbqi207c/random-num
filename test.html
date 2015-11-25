@@ -3,8 +3,31 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<h6>hello</h6>
+	<div class="dropdown">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    选择你喜欢的水果
+    <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+    <li role="presentation" class="dropdown-header">第一部分菜单头部</li>
+        <li><a tabindex="-1" href="#">苹果</a></li>
+        <li><a tabindex="-1" href="#">橡胶</a></li>
+        <li><a tabindex="-1" href="#">梨</a></li>
+        <li><a tabindex="-1" href="#">桃</a></li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-zoom-in"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-zoom-out"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-upload"></span></button>
+</div>
+		<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
 	</body>
 </html>
